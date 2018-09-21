@@ -16,7 +16,10 @@ namespace opdracht1
             PrintTemperaturen(temperaturen);
            
             Console.WriteLine("De gemiddelde temperatuur is: " + BerekenGemiddelde(temperaturen));
-            Console.WriteLine("De laagste temperatuur is: " + ZoekKoudsteMinuut(temperaturen));
+
+            int koudsteMinuut = ZoekKoudsteMinuut(temperaturen);
+            Console.WriteLine("Koudste: " + koudsteMinuut + " -> " + temperaturen[koudsteMinuut]);
+            
 
             Console.ReadKey();
         }
@@ -73,20 +76,21 @@ namespace opdracht1
 
         static int ZoekKoudsteMinuut(List<double> metingen)
         {
-            List<double> x = new List<double>();
+            double[] x = metingen.ToArray();
+            int koudsteMinuut = 0;
 
-            for (int i = 0; i < metingen.Count; i++)
+            for (int i = 0; i < x.Length; i++)
             {
-                if ((metingen[i] > 100) || (metingen[i] < -50))
+                if ((x[i] > 100) || (x[i] < -50))
                 {
                     continue;
                 }
 
-                x.Add(metingen[i]);         
+                 koudsteMinuut = Array.IndexOf(x, x.Min());
             }
 
-            int laagsteTemp = (int)x.Min();
-            return laagsteTemp;
+
+            return koudsteMinuut;
         }
     }
 }

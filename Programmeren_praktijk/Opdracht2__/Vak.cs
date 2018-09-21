@@ -10,6 +10,6 @@ namespace Opdracht2__
     {
         public string subjectName;
         public float theoryGrade;
-        Rating practicum;
+        public Rating practicum;
     }
 }

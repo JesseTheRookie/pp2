@@ -10,28 +10,55 @@ namespace Opdracht2__
     {
         static void Main(string[] args)
         {
-            List<Subject> rapport;
+            List<Subject> rapport = new List<Subject>();
+ // Moet nog in een method - Begin
+            for(int i = 0; i < 3; i++)
+            {
+                Subject x;
 
-            Subject subjectName =  ReadSubject("Naam van het vak: ");
-            int subjectGrade = ReadInt("Cijfer voor het vak: ", 1, 10);
+                Console.WriteLine("Voer een vak in: ");
+                string subjectName =  ReadString("Naam van het vak: ");
+                int theoryGrade = ReadInt("Cijfer voor " + subjectName + ": ", 10, 100);
+                int counter = 0;
+                foreach (string name in Enum.GetNames(typeof(Rating)))
+                {                   
+                    Console.Write(counter + ". " + name + ", ");
+                    counter++;
+                }
+                Console.WriteLine();
+                Rating rating = ReadRating("Practicum beoordeling voor " + subjectName + ": ");
+                Console.WriteLine();
+
+                x.subjectName = subjectName;
+                x.theoryGrade = theoryGrade;
+                x.practicum = rating;
+
+                rapport.Add(x);
+            }
+ // - Eind
         }
 
         static Rating ReadRating(string question)
         {
-
+            Console.Write(question);
+            int x = int.Parse(Console.ReadLine());
+            Rating answer = (Rating)x;
+            return answer;
         }
-        static void ShowRating(Rating question)
+        static void ShowRating(Rating judgement)
         {
 
         }
-        //????? 
+        /*
         static Subject ReadSubject(string question)
         {
-            Console.WriteLine("Voer een vak in");
-            string answer = (ReadString(question));
+            Console.Write(question);
 
-            return answer;        
-        }
+            Subject x;
+            x.subjectName = question;
+
+            return x;        
+        }*/
         static void ShowSubject(Subject subject)
         {
             

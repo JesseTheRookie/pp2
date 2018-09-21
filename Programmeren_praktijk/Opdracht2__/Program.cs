@@ -17,9 +17,7 @@ namespace Opdracht2__
         {
             for (int i = 0; i < 3; i++)
             {
-                Subject x;
-
-                Console.WriteLine("Voer een vak in: ");
+                Console.WriteLine("Voer een vak in. ");
                 string subjectName = ReadString("Naam van het vak: ");
                 int theoryGrade = ReadInt("Cijfer voor " + subjectName + ": ", 10, 100);
                 int counter = 0;
@@ -31,6 +29,8 @@ namespace Opdracht2__
                 Console.WriteLine();
                 Rating rating = ReadRating("Practicum beoordeling voor " + subjectName + ": ");
                 Console.WriteLine();
+
+                Subject x;
 
                 x.subjectName = subjectName;
                 x.theoryGrade = theoryGrade;
@@ -50,16 +50,17 @@ namespace Opdracht2__
         {
 
         }
-        /*
+/*
         static Subject ReadSubject(string question)
         {
-            Console.Write(question);
+            Console.WriteLine(question);
 
-            Subject x;
+            Subject Con;
             x.subjectName = question;
 
             return x;        
-        }*/
+        }
+*/
         static void ShowSubject(Subject subject)
         {
             

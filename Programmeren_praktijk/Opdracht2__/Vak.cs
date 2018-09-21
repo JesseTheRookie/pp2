@@ -29,7 +29,7 @@ namespace Opdracht2__
         }
         public bool IsCumLaude()
         {
-            //Value uit enum practicum halen voor if statement            
+     
             int practValue = (int)practicum;
 
             if ((theoryGrade > 85) && (practValue == 4))

@@ -11,5 +11,33 @@ namespace Opdracht2__
         public string subjectName;
         public float theoryGrade;
         public Rating practicum;
+        public bool IsBehaald()
+        {
+            //Value uit enum practicum halen voor if statement            
+            int practValue = (int)practicum;
+
+            if(theoryGrade > 85)
+            {
+                return false;
+            }
+            if((theoryGrade > 55) && (practValue > 2))
+            {
+                return true;
+            }
+
+            return false;
+        }
+        public bool IsCumLaude()
+        {
+            //Value uit enum practicum halen voor if statement            
+            int practValue = (int)practicum;
+
+            if ((theoryGrade > 85) && (practValue == 4))
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }

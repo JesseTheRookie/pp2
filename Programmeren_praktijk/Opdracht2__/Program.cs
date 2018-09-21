@@ -11,17 +11,20 @@ namespace Opdracht2__
         static void Main(string[] args)
         {
             List<Subject> rapport = new List<Subject>();
- // Moet nog in een method - Begin
-            for(int i = 0; i < 3; i++)
+            FillList(rapport);
+        }
+        static void FillList(List<Subject> intake)
+        {
+            for (int i = 0; i < 3; i++)
             {
                 Subject x;
 
                 Console.WriteLine("Voer een vak in: ");
-                string subjectName =  ReadString("Naam van het vak: ");
+                string subjectName = ReadString("Naam van het vak: ");
                 int theoryGrade = ReadInt("Cijfer voor " + subjectName + ": ", 10, 100);
                 int counter = 0;
                 foreach (string name in Enum.GetNames(typeof(Rating)))
-                {                   
+                {
                     Console.Write(counter + ". " + name + ", ");
                     counter++;
                 }
@@ -33,11 +36,9 @@ namespace Opdracht2__
                 x.theoryGrade = theoryGrade;
                 x.practicum = rating;
 
-                rapport.Add(x);
+                intake.Add(x);
             }
- // - Eind
         }
-
         static Rating ReadRating(string question)
         {
             Console.Write(question);

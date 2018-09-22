@@ -28,8 +28,7 @@ namespace Opdracht2__
             return false;
         }
         public bool IsCumLaude()
-        {
-     
+        {   
             int practValue = (int)practicum;
 
             if ((theoryGrade > 85) && (practValue == 4))

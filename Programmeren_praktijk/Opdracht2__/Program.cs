@@ -11,7 +11,11 @@ namespace Opdracht2__
         static void Main(string[] args)
         {
             List<Subject> rapport = new List<Subject>();
+
             FillList(rapport);
+            showRapport(rapport);
+
+            Console.ReadKey();
         }
         static void FillList(List<Subject> intake)
         {
@@ -39,6 +43,41 @@ namespace Opdracht2__
                 intake.Add(x);
             }
         }
+        static void showRapport(List<Subject> intake)
+        {
+            foreach(Subject s in intake)
+            {
+                Console.WriteLine(s.subjectName + " : " + s.theoryGrade + " " + s.practicum);
+            }
+
+            int vakkenBehaald = 0;
+            int cumlaude = 0;
+
+            foreach(Subject s in intake)
+            {
+                if (s.IsBehaald())
+                {
+                    vakkenBehaald++;
+                }
+                if (s.IsCumLaude())
+                {
+                    cumlaude++;
+                }
+            }
+
+            if(cumlaude == intake.Count)
+            {
+                Console.WriteLine("Je bent met cum laude geslaagd!");
+            }
+            else if(vakkenBehaald == intake.Count)
+            {
+                Console.WriteLine("Je bent geslaagd!");
+            }
+            else
+            {
+                Console.WriteLine("Helaas, je bent gezakt en hebt " + (intake.Count - vakkenBehaald) + " herkansingen");
+            }
+        }
         static Rating ReadRating(string question)
         {
             Console.Write(question);
@@ -46,11 +85,15 @@ namespace Opdracht2__
             Rating answer = (Rating)x;
             return answer;
         }
+
+// Geen idee waar ik deze methodes voor moest gebruiken
+
+/*
         static void ShowRating(Rating judgement)
         {
 
         }
-/*
+
         static Subject ReadSubject(string question)
         {
             Console.WriteLine(question);
@@ -60,11 +103,12 @@ namespace Opdracht2__
 
             return x;        
         }
-*/
+
         static void ShowSubject(Subject subject)
         {
-            
+
         }
+*/
         static int ReadInt(string question)
         {
             Console.Write(question);

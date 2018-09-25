@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,12 +14,12 @@ namespace opdracht1
 
             temperaturen = MeetTemperaturen();
             PrintTemperaturen(temperaturen);
-           
+
             Console.WriteLine("De gemiddelde temperatuur is: " + BerekenGemiddelde(temperaturen));
 
             int koudsteMinuut = ZoekKoudsteMinuut(temperaturen);
-            Console.WriteLine("Koudste: " + koudsteMinuut + " -> " + temperaturen[koudsteMinuut]);
-            
+            double koudsteTemp = Math.Round(temperaturen[koudsteMinuut], 2);
+            Console.WriteLine("Koudste: " + (koudsteMinuut / 60) + " -> " + koudsteTemp);
 
             Console.ReadKey();
         }
@@ -32,7 +32,7 @@ namespace opdracht1
             // van nacht tot nacht (24 uur)
             int aantalMinInDag = 24 * 60;
             double f = (2 * Math.PI) / aantalMinInDag;
-            for(int i = 0; i < aantalMinInDag; i++)
+            for (int i = 0; i < aantalMinInDag; i++)
             {
                 double x = 1.5 * Math.PI + i * f;
                 double temperatuur = 18 + 6 * Math.Sin(x) + rnd.Next(10) / 10.0f;
@@ -47,11 +47,11 @@ namespace opdracht1
 
         static void PrintTemperaturen(List<double> metingen)
         {
-            for(int i = 0; i < metingen.Count; i++)
-            {           
+            for (int i = 0; i < metingen.Count; i++)
+            {
                 if ((i % 60) != 0)
-                  continue;
-                Console.WriteLine(i + ". " + metingen[i]);
+                    continue;
+                Console.WriteLine(i/60 + ". " + metingen[i]);
             }
         }
 
@@ -59,6 +59,7 @@ namespace opdracht1
         {
             double totaal = 0;
             int i;
+            int count = 0;
 
             for (i = 0; i < metingen.Count; i++)
             {
@@ -67,26 +68,32 @@ namespace opdracht1
                     continue;
                 }
 
-                 totaal += metingen[i];
+                totaal += metingen[i];
+                count++;
             }
 
-            double gemiddelde = totaal / i;
+            double gemiddelde = totaal / count;
             return gemiddelde;
         }
 
         static int ZoekKoudsteMinuut(List<double> metingen)
         {
-            double[] x = metingen.ToArray();
+            //double[] x = metingen.ToArray();
+            double laagsteTemp = 100;
             int koudsteMinuut = 0;
 
-            for (int i = 0; i < x.Length; i++)
+            for (int i = 0; i < metingen.Count; i++)
             {
-                if ((x[i] > 100) || (x[i] < -50))
+                if ((metingen[i] > 100) || (metingen[i] < -50))
                 {
                     continue;
                 }
 
-                 koudsteMinuut = Array.IndexOf(x, x.Min());
+                if (metingen[i] < laagsteTemp)
+                {
+                    laagsteTemp = metingen[i];
+                    koudsteMinuut = i;
+                }
             }
 
 

@@ -11,3 +11,10 @@ C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\Opdracht2__\obj\De
 C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\Opdracht2__\bin\Debug\Opdracht2__.exe.config
 C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\Opdracht2__\bin\Debug\Opdracht2__.exe
 C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\Opdracht2__\bin\Debug\Opdracht2__.pdb
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\bin\Debug\Opdracht2__.exe.config
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\bin\Debug\Opdracht2__.exe
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\bin\Debug\Opdracht2__.pdb
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\obj\Debug\Opdracht2.csprojAssemblyReference.cache
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\obj\Debug\Opdracht2.csproj.CoreCompileInputs.cache
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\obj\Debug\Opdracht2__.exe
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht2__\obj\Debug\Opdracht2__.pdb

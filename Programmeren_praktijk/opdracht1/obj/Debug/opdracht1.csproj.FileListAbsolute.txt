@@ -12,3 +12,10 @@ C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debu
 C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\Opdracht1.csproj.CoreCompileInputs.cache
 C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\opdracht1.exe
 C:\Users\jesse\Documents\GitHub\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\opdracht1.pdb
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\bin\Debug\opdracht1.exe.config
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\bin\Debug\opdracht1.exe
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\bin\Debug\opdracht1.pdb
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\Opdracht1.csprojAssemblyReference.cache
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\Opdracht1.csproj.CoreCompileInputs.cache
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\opdracht1.exe
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\opdracht1\obj\Debug\opdracht1.pdb

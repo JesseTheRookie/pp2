@@ -12,11 +12,36 @@ namespace Opdracht3__
         public string guessedWord;
 
         public void Init()
-        {   
-            for(int i = 0; i < secretWord.Length; i++)
+        {
+            guessedWord = "";
+            for (int i = 0; i < secretWord.Length; i++)
             {
                 guessedWord += ".";
             }
+        }
+        public bool GuessLetter(char letter)
+        {
+            char[] sArray = secretWord.ToCharArray();
+            char[] gArray = guessedWord.ToCharArray();
+
+            if (sArray.Contains(letter))
+            {
+                for(int i = 0; i < sArray.Length; i++)
+                {
+                    if(sArray[i] == letter)
+                        gArray[i] = letter;
+                }
+                string x = new string(gArray);
+                guessedWord = x;
+
+                return true;
+            }
+
+            return false;
+        }
+        public bool IsGeraden()
+        {
+            return secretWord == guessedWord;
         }
     }
 }

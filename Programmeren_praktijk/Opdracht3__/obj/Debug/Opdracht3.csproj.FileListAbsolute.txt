@@ -1,0 +1,7 @@
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\bin\Debug\Opdracht3__.exe.config
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\bin\Debug\Opdracht3__.exe
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\bin\Debug\Opdracht3__.pdb
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\obj\Debug\Opdracht3.csprojAssemblyReference.cache
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\obj\Debug\Opdracht3.csproj.CoreCompileInputs.cache
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\obj\Debug\Opdracht3__.exe
+C:\Users\jesse\Documents\Git\pp2\pp2\Programmeren_praktijk\Opdracht3__\obj\Debug\Opdracht3__.pdb

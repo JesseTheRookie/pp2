@@ -1,0 +1,13 @@
+C:\Users\jesse\OneDrive - Hogeschool Inholland\programmeren praktijk\Programmeren_2\Opdracht_0\bin\Debug\Opdracht_0.exe.config
+C:\Users\jesse\OneDrive - Hogeschool Inholland\programmeren praktijk\Programmeren_2\Opdracht_0\bin\Debug\Opdracht_0.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\programmeren praktijk\Programmeren_2\Opdracht_0\bin\Debug\Opdracht_0.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\programmeren praktijk\Programmeren_2\Opdracht_0\obj\Debug\Opdracht0.csproj.CoreCompileInputs.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\programmeren praktijk\Programmeren_2\Opdracht_0\obj\Debug\Opdracht_0.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\programmeren praktijk\Programmeren_2\Opdracht_0\obj\Debug\Opdracht_0.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\bin\Debug\Opdracht_0.exe.config
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\bin\Debug\Opdracht_0.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\bin\Debug\Opdracht_0.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\obj\Debug\Opdracht0.csprojAssemblyReference.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\obj\Debug\Opdracht0.csproj.CoreCompileInputs.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\obj\Debug\Opdracht_0.exe
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\Opdracht_0\obj\Debug\Opdracht_0.pdb

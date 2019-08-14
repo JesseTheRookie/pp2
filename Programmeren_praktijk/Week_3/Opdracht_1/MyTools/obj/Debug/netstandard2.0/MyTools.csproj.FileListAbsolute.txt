@@ -1,0 +1,9 @@
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\bin\Debug\netstandard2.0\MyTools.deps.json
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\bin\Debug\netstandard2.0\MyTools.dll
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\bin\Debug\netstandard2.0\MyTools.pdb
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\obj\Debug\netstandard2.0\MyTools.csprojAssemblyReference.cache
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\obj\Debug\netstandard2.0\MyTools.csproj.CoreCompileInputs.cache
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\obj\Debug\netstandard2.0\MyTools.AssemblyInfoInputs.cache
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\obj\Debug\netstandard2.0\MyTools.AssemblyInfo.cs
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\obj\Debug\netstandard2.0\MyTools.dll
+C:\repos\pp2\Programmeren_praktijk\ClassLibrary1\obj\Debug\netstandard2.0\MyTools.pdb

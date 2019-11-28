@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -179,23 +179,24 @@
   },
   "packageFolders": {
     "C:\\Users\\jesse\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesse\\source\\repos\\pp2\\Programmeren_praktijk\\Week_3\\Opdracht_1\\MyTools\\MyTools.csproj",
+      "projectUniqueName": "C:\\Repos\\pp2\\Programmeren_praktijk\\Week_3\\Opdracht_1\\MyTools\\MyTools.csproj",
       "projectName": "MyTools",
-      "projectPath": "C:\\Users\\jesse\\source\\repos\\pp2\\Programmeren_praktijk\\Week_3\\Opdracht_1\\MyTools\\MyTools.csproj",
+      "projectPath": "C:\\Repos\\pp2\\Programmeren_praktijk\\Week_3\\Opdracht_1\\MyTools\\MyTools.csproj",
       "packagesPath": "C:\\Users\\jesse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesse\\source\\repos\\pp2\\Programmeren_praktijk\\Week_3\\Opdracht_1\\MyTools\\obj\\",
+      "outputPath": "C:\\Repos\\pp2\\Programmeren_praktijk\\Week_3\\Opdracht_1\\MyTools\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -226,10 +227,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

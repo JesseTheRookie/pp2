@@ -12,27 +12,15 @@ namespace Opdracht2
         {
             int[,] matrix = new int[11, 11];
             InitMatrixRandom(matrix, 1, 10);
-            PrintMatrixWithCross(matrix);
+            PrintMatrix(matrix);
 
             Console.Write("Geef een getal op: ");
             int getal = int.Parse(Console.ReadLine());
 
-            Positie[,] pos = ZoekGetal(matrix, getal);
+            Positie positie = ZoekGetalAchterwaarts(matrix, getal);
 
-            PrintMatrixPositie(pos);
+            PrintMatrixPositie(positie, getal);
             Console.ReadKey();
-        }
-        public static void InitMatrix2d(int[,] matrix)
-        {
-            int i = 1;
-            for (int r = 0; r < matrix.GetLength(0); r++)
-            {
-                for (int k = 0; k < matrix.GetLength(1); k++)
-                {
-                    matrix[r, k] += i;
-                    i++;
-                }
-            }
         }
         public static void PrintMatrix(int[,] matrix)
         {
@@ -45,47 +33,9 @@ namespace Opdracht2
                 Console.Write(Environment.NewLine + Environment.NewLine);
             }
         }
-        public static void PrintMatrixPositie(Positie[,] matrix)
+        public static void PrintMatrixPositie(Positie positie, int zoekgetal)
         {
-            for (int r = 0; r < matrix.GetLength(0); r++)
-            {
-                for (int k = 0; k < matrix.GetLength(1); k++)
-                {
-                    Console.Write("{0,3} ", matrix[r, k]);
-                }
-                Console.Write(Environment.NewLine + Environment.NewLine);
-            }
-        }
-        public static void InitMatrixLineair(int[,] matrix)
-        {
-            //Kwam hier niet uit
-        }
-        public static void PrintMatrixWithCross(int[,] matrix)
-        {
-
-            for (int i = 0; i < matrix.GetLength(0); i++)
-            {
-                for (int k = 0; k < matrix.GetLength(1); k++)
-                {
-                    if (i == k)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                    }
-                    else
-                    {
-                        Console.ForegroundColor = ConsoleColor.White;
-                    }
-                    if ((i + k) == (matrix.GetLength(0) - 1))
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                    }
-
-
-                    Console.Write("{0,3} ", matrix[i, k]);
-                }
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.Write(Environment.NewLine + Environment.NewLine);
-            }
+            Console.WriteLine($"Zoekgetal {zoekgetal} komt het eerst voor op positie [{positie.rij}, {positie.kolom}]", zoekgetal, positie.rij, positie.kolom);
         }
         public static void InitMatrixRandom(int[,] matrix, int min, int max)
         {
@@ -98,34 +48,47 @@ namespace Opdracht2
                 }
             }
         }
-        public struct Positie
+        public class Positie
         {
             public int rij;
             public int kolom;
         }
-
-        public static Positie[,] ZoekGetal(int[,] matrix, int zoekGetal)
+        public static Positie ZoekGetal(int[,] matrix, int zoekGetal)
         {
-            Positie pos = new Positie()
-            {
-                rij = 0,
-                kolom = 0
-            };
-            Positie[,] posities = new Positie[2, 10];
+            Positie positie = new Positie();
 
             for (int r = 0; r < matrix.GetLength(0); r++)
             {
                 for (int k = 0; k < matrix.GetLength(1); k++)
                 {
-                    while (matrix[r, k] == zoekGetal)
+                    if (matrix[r, k] == zoekGetal)
                     {
-                        pos.rij = r;
-                        pos.kolom = k;
-                        posities[r, k] = pos;
+                        positie.rij = r;
+                        positie.kolom = k;
+                        return positie;
                     }
                 }
             }
-            return posities;
+            return positie;
+        }
+        public static Positie ZoekGetalAchterwaarts(int[,] matrix, int zoekGetal)
+        {
+            Positie positie = new Positie();
+
+            for (int r = matrix.GetLength(0); r > 0; r--)
+            {
+                for (int k = matrix.GetLength(1); k > 0; k--)
+                {
+                    if (matrix[r, k] == zoekGetal)
+                    {
+                        Console.WriteLine(matrix[r, k]);
+                        positie.rij = r;
+                        positie.kolom = k;
+                        return positie;
+                    }
+                }
+            }
+            return positie;
         }
     }
 }

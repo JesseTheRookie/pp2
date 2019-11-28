@@ -44,16 +44,23 @@ namespace OPdracht_1___
         }
         public static void InitMatrixLineair(int[,] matrix)
         {
-            //Kwam hier niet uit
+            int rowLength = matrix.GetLength(0);
+            int columnLength = matrix.GetLength(1);
+            int matrixSize = rowLength * columnLength;
+
+            for (int i = 0; i < matrixSize; i++)
+            {
+                matrix[i / columnLength, i % rowLength] = i + 1;
+            }
         }
         public static void PrintMatrixWithCross(int[,] matrix)
         {
 
-            for (int i = 0; i < matrix.GetLength(0); i++)
+            for (int r = 0; r < matrix.GetLength(0); r++)
             {
                 for (int k = 0; k < matrix.GetLength(1); k++)
                 {
-                    if (i == k)
+                    if (r == k)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                     }
@@ -61,13 +68,13 @@ namespace OPdracht_1___
                     {
                         Console.ForegroundColor = ConsoleColor.White;
                     }
-                    if ((i + k) == (matrix.GetLength(0) - 1))
+                    if ((r + k) == (matrix.GetLength(0) - 1))
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                     }
 
                        
-                    Console.Write("{0,3} ", matrix[i, k]);
+                    Console.Write("{0,3} ", matrix[r, k]);
                 }
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(Environment.NewLine + Environment.NewLine);

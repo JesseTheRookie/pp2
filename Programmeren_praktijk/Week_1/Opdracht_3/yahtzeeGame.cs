@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Opdracht3
 {
-    struct YahtzeeGame
+    class YahtzeeGame
     {
         public Dice[] dice;
         public void Throw()
@@ -31,15 +31,13 @@ namespace Opdracht3
         }
         public bool Yahtzee()
         {
-            int count = 0;
-
             for (int i = 0; i < 5; i++)
             {
-                if (dice[i].value == dice[0].value)
-                    count++;
+                if (dice[i].value != dice[0].value)
+                    return false;
             }
 
-            return count == 5;
+            return true;
         }
         public bool ThreeOfAKind()
         {

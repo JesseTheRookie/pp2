@@ -1,0 +1,7 @@
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\bin\Debug\Opdracht2.exe.config
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\bin\Debug\Opdracht2.exe
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\bin\Debug\Opdracht2.pdb
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\obj\Debug\Opdracht2.csprojAssemblyReference.cache
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\obj\Debug\Opdracht2.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\obj\Debug\Opdracht2.exe
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Opdracht2\obj\Debug\Opdracht2.pdb

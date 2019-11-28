@@ -49,11 +49,11 @@ namespace OPdracht_1___
         public static void PrintMatrixWithCross(int[,] matrix)
         {
 
-            for (int r = 0; r < matrix.GetLength(0); r++)
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int k = 0; k < matrix.GetLength(1); k++)
                 {
-                    if (r == k)
+                    if (i == k)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                     }
@@ -61,7 +61,13 @@ namespace OPdracht_1___
                     {
                         Console.ForegroundColor = ConsoleColor.White;
                     }
-                    Console.Write("{0,3} ", matrix[r, k]);
+                    if ((i + k) == (matrix.GetLength(0) - 1))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    }
+
+                       
+                    Console.Write("{0,3} ", matrix[i, k]);
                 }
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(Environment.NewLine + Environment.NewLine);

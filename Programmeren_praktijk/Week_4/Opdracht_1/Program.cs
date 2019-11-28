@@ -10,7 +10,7 @@ namespace OPdracht_1___
     {
         static void Main(string[] args)
         {          
-            int[,] matrix = new int[8, 8];
+            int[,] matrix = new int[11, 11];
             Matrix.InitMatrixRandom(matrix, 1, 10);
             Matrix.PrintMatrixWithCross(matrix);
         

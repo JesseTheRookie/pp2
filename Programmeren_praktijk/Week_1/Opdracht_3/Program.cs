@@ -11,7 +11,7 @@ namespace Opdracht3
 
         static void Main(string[] args)
         {
-            YahtzeeGame yahtzeeGame;
+            YahtzeeGame yahtzeeGame = new YahtzeeGame();
             yahtzeeGame.dice = new Dice[5];
 
             PlayYahtzee(yahtzeeGame);

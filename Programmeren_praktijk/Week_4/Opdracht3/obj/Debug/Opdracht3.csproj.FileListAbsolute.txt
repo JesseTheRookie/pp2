@@ -4,3 +4,9 @@ C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\bin\Debug\Opdracht3.pdb
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\obj\Debug\Opdracht3.csprojAssemblyReference.cache
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\obj\Debug\Opdracht3.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\obj\Debug\Opdracht3.pdb
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\bin\Debug\Opdracht3.exe.config
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\bin\Debug\Opdracht3.exe
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\bin\Debug\Opdracht3.pdb
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\obj\Debug\Opdracht3.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\obj\Debug\Opdracht3.exe
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht3\obj\Debug\Opdracht3.pdb

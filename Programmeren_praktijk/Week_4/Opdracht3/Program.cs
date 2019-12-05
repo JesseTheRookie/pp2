@@ -10,10 +10,10 @@ namespace Opdracht3
     {
         static void Main(string[] args)
         {
-            Regularcandies[,] speelveld = new Regularcandies[4, 4];
+            Regularcandies[,] speelveld = new Regularcandies[5, 5];
             InitCandies(speelveld);
             PrintMatrix(speelveld);
-
+        
             if (ScoreKolomAanwezig(speelveld))
                 Console.WriteLine("Score kolom");
             else
@@ -35,8 +35,9 @@ namespace Opdracht3
             {
                 for (int k = 0; k < matrix.GetLength(1); k++)
                 {
-                    Array values = Enum.GetValues(typeof(Regularcandies));
-                    matrix[r, k] = (Regularcandies)values.GetValue(rnd.Next(values.Length));
+                   // Array values = Enum.GetValues(typeof(Regularcandies));
+                   // matrix[r, k] = (Regularcandies)values.GetValue(rnd.Next(values.Length));
+                    matrix[r, k] = (Regularcandies)rnd.Next(0, 5);
                 }
             }
         }
@@ -82,21 +83,25 @@ namespace Opdracht3
         {
             for (int r = 0; r < matrix.GetLength(0); r++)
             {
-                int teller = 0;
-                Regularcandies candy = matrix[0,0];
+                int teller = 1;
+                Regularcandies candy = matrix[r,0];
 
-                for (int k = 0; k < matrix.GetLength(1); k++)
+                for (int k = 1; k < matrix.GetLength(1); k++)
                 {
                     if (matrix[r, k] == candy)
+                    {
                         teller++;
+                    }
                     else
                     {
                         candy = matrix[r, k];
-                        teller = 0;
+                        teller = 1;
                     }
 
-                    if (teller > 3)
+                    if (teller >= 3)
+                    {
                         return true;
+                    }
                 }
             }
             return false;
@@ -105,21 +110,25 @@ namespace Opdracht3
         {
             for (int k = 0; k < matrix.GetLength(1); k++)
             {
-                int teller = 0;
-                Regularcandies candy = matrix[0, 0];
+                int teller = 1;
+                Regularcandies candy = matrix[0, k];
 
-                for (int r = 0; r < matrix.GetLength(0); r++)
+                for (int r = 1; r < matrix.GetLength(0); r++)
                 {
                     if (matrix[r, k] == candy)
+                    {
                         teller++;
+                    }
                     else
                     {
                         candy = matrix[r, k];
-                        teller = 0;
+                        teller = 1;
                     }
 
-                    if (teller > 3)
+                    if (teller >= 3)
+                    {
                         return true;
+                    }
                 }
             }
             return false;

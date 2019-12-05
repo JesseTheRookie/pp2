@@ -22,7 +22,6 @@ C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\p
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debug\ConsoleApp1.exe.config
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debug\ConsoleApp1.exe
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debug\ConsoleApp1.pdb
-C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\Opdracht1.csprojAssemblyReference.cache
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\Opdracht1.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\ConsoleApp1.exe
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\ConsoleApp1.pdb

@@ -35,8 +35,6 @@ namespace Opdracht3
             {
                 for (int k = 0; k < matrix.GetLength(1); k++)
                 {
-                   // Array values = Enum.GetValues(typeof(Regularcandies));
-                   // matrix[r, k] = (Regularcandies)values.GetValue(rnd.Next(values.Length));
                     matrix[r, k] = (Regularcandies)rnd.Next(0, 5);
                 }
             }
@@ -50,31 +48,32 @@ namespace Opdracht3
                     switch (matrix[r,k])
                     {
                         case (Regularcandies)0:
-                            Console.Write(" # ");
                             Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.Write(" # ");
                             break;
                         case (Regularcandies)1:
-                            Console.Write(" # ");
                             Console.ForegroundColor = ConsoleColor.Green;
+                            Console.Write(" # ");
                             break;
                         case (Regularcandies)2:
-                            Console.Write(" # ");
                             Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.Write(" # ");
                             break;
                         case (Regularcandies)3:
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.Write(" # ");
-                            Console.ForegroundColor = ConsoleColor.DarkGreen;
                             break;
                         case (Regularcandies)4:
-                            Console.Write(" # ");
                             Console.ForegroundColor = ConsoleColor.Magenta;
+                            Console.Write(" # ");
                             break;
                         case (Regularcandies)5:
-                            Console.Write(" # ");
                             Console.ForegroundColor = ConsoleColor.Blue;
-                            break;
+                            Console.Write(" # ");                          
+                            break;                   
 
                     }
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 Console.Write(Environment.NewLine);
             }
@@ -97,7 +96,6 @@ namespace Opdracht3
                         candy = matrix[r, k];
                         teller = 1;
                     }
-
                     if (teller >= 3)
                     {
                         return true;

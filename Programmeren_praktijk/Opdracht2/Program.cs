@@ -75,9 +75,9 @@ namespace Opdracht2
         {
             Positie positie = new Positie();
 
-            for (int r = matrix.GetLength(0); r > 0; r--)
+            for (int r = matrix.GetLength(0); r --> 0;)
             {
-                for (int k = matrix.GetLength(1); k > 0; k--)
+                for (int k = matrix.GetLength(1); k --> 0;)
                 {
                     if (matrix[r, k] == zoekGetal)
                     {

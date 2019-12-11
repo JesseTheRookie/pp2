@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Opdracht3__
 {
-    struct HangmanGame
+    class HangmanGame
     {
         public string secretWord;
         public string guessedWord;

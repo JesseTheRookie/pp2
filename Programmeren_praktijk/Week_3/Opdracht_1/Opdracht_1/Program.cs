@@ -12,14 +12,9 @@ namespace Opdracht1___
     {
         static void Main(string[] args)
         {
-            int number = LeesTools.ReadInt("tik een getal: ");
-            Console.WriteLine("Je hebt {0} ingetikt. ", number);
-
-            int age = LeesTools.ReadInt("Hoe oud ben je? ", 0, 120);
-            Console.WriteLine("Je bent {0} jaar oud. ", age);
-
-            string name = LeesTools.ReadString("Hoe heet je? ");
-            Console.WriteLine("Aangenaam om kennis met je te maken, {0}.", name);
+            Persoon p = new Persoon();
+            Console.Write("Wat is uw naam? ");
+            p.LeesPersoon(Console.ReadLine());
 
             Console.ReadKey();
         }

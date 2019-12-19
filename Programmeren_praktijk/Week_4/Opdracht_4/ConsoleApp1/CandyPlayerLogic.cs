@@ -1,24 +1,76 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Opdracht3
+namespace ConsoleApp1
 {
     class CandyPlayerLogic
     {
-        public void InitCandies(Regularcandies[,] matrix)
+
+
+        public void InitCandies(Regularcandies[,] matrix, string bestandsnaam)
         {
-            Random rnd = new Random();
+            if (File.Exists(bestandsnaam))
+            {
+                LeesSpeelveld(bestandsnaam);
+            }
+            else
+            {
+                Random rnd = new Random();
+
+                for (int r = 0; r < matrix.GetLength(0); r++)
+                {
+                    for (int k = 0; k < matrix.GetLength(1); k++)
+                    {
+                        matrix[r, k] = (Regularcandies)rnd.Next(0, 5);
+                    }
+                }
+
+                this.SchrijfSpeelVeld(matrix, bestandsnaam);
+            }
+        }
+        public void SchrijfSpeelVeld(Regularcandies[,] matrix, string bestandsnaam)
+        {
+            StreamWriter writer = new StreamWriter(bestandsnaam);
+
             for (int r = 0; r < matrix.GetLength(0); r++)
             {
                 for (int k = 0; k < matrix.GetLength(1); k++)
                 {
-                    matrix[r, k] = (Regularcandies)rnd.Next(0, 5);
+                    writer.Write($"{matrix[r,k]}");
                 }
+                writer.WriteLine();
             }
         }
+
+        public Regularcandies[,] LeesSpeelveld(string bestandsnaam)
+        {
+            StreamReader reader = new StreamReader(bestandsnaam);
+
+            Regularcandies[,] regularcandies = null;
+
+            while (!reader.EndOfStream)
+            {
+                string line = reader.ReadLine();
+                int counter = 0;
+                string[] getalStrings = line.Split(' ');
+
+                for (int r = 0; r < counter; r++)
+                {
+                    for (int k = 0; k < getalStrings.GetLength(1); k++)
+                    {
+                        Regularcandies candy = (Regularcandies) Enum.TryParse(typeof(Regularcandies), getalStrings[k], true);
+                        regularcandies[r, k] = candy;
+                    }
+                }
+
+                counter++;
+            }
+        }
+
         public void PrintMatrix(Regularcandies[,] matrix)
         {
             for (int r = 0; r < matrix.GetLength(0); r++)

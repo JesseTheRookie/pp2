@@ -8,7 +8,6 @@ C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\p
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\bin\Debug\OPdracht_1___.exe.config
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\bin\Debug\OPdracht_1___.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\bin\Debug\OPdracht_1___.pdb
-C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\Opdracht1.csprojAssemblyReference.cache
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\OPdracht_1___.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\OPdracht_1___.pdb
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\bin\Debug\OPdracht_1___.exe.config
@@ -17,3 +16,4 @@ C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\bin\Debu
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\Opdracht1.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\OPdracht_1___.exe
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\OPdracht_1___.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_4\Opdracht_1\obj\Debug\Opdracht1.csprojAssemblyReference.cache

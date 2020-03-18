@@ -13,7 +13,7 @@ namespace Opdracht_4
         {
             if (File.Exists(bestandsnaam))
             {
-                speelveld = this.LeesSpeelveld(bestandsnaam);
+                speelveld = this.LeesSpeelveld(bestandsnaam, speelveld);
             }
             else
             {
@@ -43,27 +43,22 @@ namespace Opdracht_4
             }
             writer.Close();
         }
-        public Regularcandies[,] LeesSpeelveld(string bestandsnaam)
+        public Regularcandies[,] LeesSpeelveld(string bestandsnaam, Regularcandies[,] speelveld)
          {
-             StreamReader reader = new StreamReader(bestandsnaam);
-             Regularcandies[,] candies = new Regularcandies[10,10];
+            StreamReader reader = new StreamReader(bestandsnaam);
 
-             for (int r = 0; !reader.EndOfStream; r++)
-             {
-                int counter = 0;
+            for (int r = 0; r < speelveld.GetLength(0); r++)
+            {
                 string regel = reader.ReadLine();
-                foreach (char character in regel)
+                for (int k = 0; k < speelveld.GetLength(1); k++)
                 {
-                    int x = (int)Char.GetNumericValue(character);
-                    //candies = new Regularcandies[r+1, counter+1];
-                    Regularcandies foo = (Regularcandies)Enum.ToObject(typeof(Regularcandies), x);
-                    candies[r, counter] = (Regularcandies)x;
-                    counter++;
+                    int x = int.Parse(regel[k].ToString());
+                    speelveld[r, k] = (Regularcandies)x;
                 }
-             }
+            }
 
-             reader.Close();
-             return candies;
+            reader.Close();
+            return speelveld;
          }
 
         public void PrintSpeelveld(Regularcandies[,] speelveld)

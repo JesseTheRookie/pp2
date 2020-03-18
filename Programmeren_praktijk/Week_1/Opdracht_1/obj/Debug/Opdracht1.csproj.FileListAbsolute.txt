@@ -25,3 +25,9 @@ C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debu
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\Opdracht1.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\ConsoleApp1.exe
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\ConsoleApp1.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debug\ConsoleApp1.exe.config
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debug\ConsoleApp1.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\bin\Debug\ConsoleApp1.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\Opdracht1.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\ConsoleApp1.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_1\obj\Debug\ConsoleApp1.pdb

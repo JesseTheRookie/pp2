@@ -18,3 +18,9 @@ C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debu
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debug\Opdracht0.csproj.CoreCompileInputs.cache
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debug\Opdracht_0.exe
 C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debug\Opdracht_0.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\bin\Debug\Opdracht_0.exe.config
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\bin\Debug\Opdracht_0.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\bin\Debug\Opdracht_0.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debug\Opdracht0.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debug\Opdracht_0.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_1\Opdracht_0\obj\Debug\Opdracht_0.pdb

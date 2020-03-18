@@ -13,41 +13,41 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Week_1\Opdrach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht3", "Week_1\Opdracht_3\Opdracht3.csproj", "{53CB95B7-D0C2-4E54-8382-A9D7280173C8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_2", "Week_2", "{895688D5-4CB3-46DA-83CF-49F538477F33}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_3_", "Week_3_", "{895688D5-4CB3-46DA-83CF-49F538477F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht1", "Week_2\Opdracht_1\Opdracht1.csproj", "{36910D6C-537F-4660-8F87-A298EE5C66F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht1", "Week_3_\Opdracht_1\Opdracht1.csproj", "{36910D6C-537F-4660-8F87-A298EE5C66F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Week_2\Opdracht_2\Opdracht2.csproj", "{FD1774D3-FB9D-491A-AE05-74F11E9F4ABC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Week_3_\Opdracht_2\Opdracht2.csproj", "{FD1774D3-FB9D-491A-AE05-74F11E9F4ABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht3", "Week_2\Opdracht_3\Opdracht3.csproj", "{D12C9B15-8DF9-4E0F-89CA-BC9C76532437}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht3", "Week_3_\Opdracht_3\Opdracht3.csproj", "{D12C9B15-8DF9-4E0F-89CA-BC9C76532437}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_3", "Week_3", "{99220935-BDDE-460B-A15F-D61F416A41AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_4_", "Week_4_", "{99220935-BDDE-460B-A15F-D61F416A41AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht1", "Week_3\Opdracht_1\Opdracht_1\Opdracht1.csproj", "{F63B2E31-C329-4D0E-BDE8-141C011F5083}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht1", "Week_4_\Opdracht_1\Opdracht_1\Opdracht1.csproj", "{F63B2E31-C329-4D0E-BDE8-141C011F5083}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTools", "Week_3\Opdracht_1\MyTools\MyTools.csproj", "{1AA5C709-9209-41C7-B605-B63BD16B80FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTools", "Week_4_\Opdracht_1\MyTools\MyTools.csproj", "{1AA5C709-9209-41C7-B605-B63BD16B80FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Week_3\Opdracht_2\Opdracht_2\Opdracht2.csproj", "{2FB93EBD-0886-4526-B58E-03FB3E7F83A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Week_4_\Opdracht_2\Opdracht_2\Opdracht2.csproj", "{2FB93EBD-0886-4526-B58E-03FB3E7F83A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalgjeLogica", "Week_3\Opdracht_2\GalgjeLogica\GalgjeLogica.csproj", "{45B2E572-E598-49AA-81A0-A1584B8D48C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalgjeLogica", "Week_4_\Opdracht_2\GalgjeLogica\GalgjeLogica.csproj", "{45B2E572-E598-49AA-81A0-A1584B8D48C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalgjeDal", "Week_3\Opdracht_2\GalgjeDal\GalgjeDal.csproj", "{6BB29EAA-575A-427F-AA97-34E1755D7262}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalgjeDal", "Week_4_\Opdracht_2\GalgjeDal\GalgjeDal.csproj", "{6BB29EAA-575A-427F-AA97-34E1755D7262}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_4", "Week_4", "{E793D30B-8980-4F08-BCDF-14173D7DAD30}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_2_", "Week_2_", "{E793D30B-8980-4F08-BCDF-14173D7DAD30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht1", "Week_4\Opdracht_1\Opdracht1.csproj", "{F1EC3D89-173E-48BE-9BA2-3807831F41AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht1", "Week_2_\Opdracht_1\Opdracht1.csproj", "{F1EC3D89-173E-48BE-9BA2-3807831F41AF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opdracht_1", "Opdracht_1", "{1CFA7217-2D02-4DB1-9905-FEFE72A180D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opdracht_2", "Opdracht_2", "{DB40599B-A9B2-42D5-816B-C0F57382240A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Opdracht2\Opdracht2.csproj", "{15BD349F-C34D-44EF-A2BF-009ED118CF97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht2", "Week_2_Opdracht2\Opdracht2.csproj", "{15BD349F-C34D-44EF-A2BF-009ED118CF97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht3", "Week_4\Opdracht3\Opdracht3.csproj", "{0F703342-81AA-47B5-9C4F-BC3999121940}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht3", "Week_2_\Opdracht3\Opdracht3.csproj", "{0F703342-81AA-47B5-9C4F-BC3999121940}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opdracht_4", "Opdracht_4", "{50E60320-31A2-40C7-B46E-6462547B5439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_4", "Opdracht_4\Opdracht_4.csproj", "{B32E6C2E-AE7C-4C39-8035-55579DD9CA2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_4", "Week_2_\Opdracht_4\Opdracht_4.csproj", "{B32E6C2E-AE7C-4C39-8035-55579DD9CA2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week_5", "Week_5", "{8FD02703-D6A8-45FF-876C-54171198FDDD}"
 EndProject

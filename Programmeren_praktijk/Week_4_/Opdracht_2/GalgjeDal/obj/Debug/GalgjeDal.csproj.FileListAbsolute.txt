@@ -1,0 +1,16 @@
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\GalgjeDal\bin\Debug\GalgjeDal.dll
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\GalgjeDal\bin\Debug\GalgjeDal.pdb
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\GalgjeDal\obj\Debug\GalgjeDal.csprojAssemblyReference.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\GalgjeDal\obj\Debug\GalgjeDal.csproj.CoreCompileInputs.cache
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\GalgjeDal\obj\Debug\GalgjeDal.dll
+C:\Users\jesse\OneDrive - Hogeschool Inholland\Jaar_1\Periode_3\Programmeren_2\pp2\Programmeren_praktijk\GalgjeDal\obj\Debug\GalgjeDal.pdb
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_3\Opdracht_2\GalgjeDal\bin\Debug\GalgjeDal.dll
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_3\Opdracht_2\GalgjeDal\bin\Debug\GalgjeDal.pdb
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_3\Opdracht_2\GalgjeDal\obj\Debug\GalgjeDal.csproj.CoreCompileInputs.cache
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_3\Opdracht_2\GalgjeDal\obj\Debug\GalgjeDal.dll
+C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_3\Opdracht_2\GalgjeDal\obj\Debug\GalgjeDal.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\GalgjeDal\bin\Debug\GalgjeDal.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\GalgjeDal\bin\Debug\GalgjeDal.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\GalgjeDal\obj\Debug\GalgjeDal.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\GalgjeDal\obj\Debug\GalgjeDal.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\GalgjeDal\obj\Debug\GalgjeDal.pdb

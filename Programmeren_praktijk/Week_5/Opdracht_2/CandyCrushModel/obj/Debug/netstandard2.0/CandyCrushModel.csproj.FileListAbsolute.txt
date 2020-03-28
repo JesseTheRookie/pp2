@@ -1,0 +1,7 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\bin\Debug\netstandard2.0\CandyCrushModel.deps.json
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\bin\Debug\netstandard2.0\CandyCrushModel.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\bin\Debug\netstandard2.0\CandyCrushModel.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\obj\Debug\netstandard2.0\CandyCrushModel.AssemblyInfoInputs.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\obj\Debug\netstandard2.0\CandyCrushModel.AssemblyInfo.cs
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\obj\Debug\netstandard2.0\CandyCrushModel.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_2\CandyCrushModel\obj\Debug\netstandard2.0\CandyCrushModel.pdb

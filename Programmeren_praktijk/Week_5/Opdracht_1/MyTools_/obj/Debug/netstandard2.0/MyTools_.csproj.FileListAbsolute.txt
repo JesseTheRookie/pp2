@@ -1,0 +1,8 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\bin\Debug\netstandard2.0\MyTools_.deps.json
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\bin\Debug\netstandard2.0\MyTools_.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\bin\Debug\netstandard2.0\MyTools_.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\obj\Debug\netstandard2.0\MyTools_.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\obj\Debug\netstandard2.0\MyTools_.AssemblyInfoInputs.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\obj\Debug\netstandard2.0\MyTools_.AssemblyInfo.cs
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\obj\Debug\netstandard2.0\MyTools_.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyTools_\obj\Debug\netstandard2.0\MyTools_.pdb

@@ -1,0 +1,9 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\bin\Debug\MyToolsApplication.exe.config
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\bin\Debug\MyToolsApplication.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\bin\Debug\MyToolsApplication.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\bin\Debug\MyTools_.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\bin\Debug\MyTools_.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\obj\Debug\MyToolsApplication.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\obj\Debug\MyToolsApplication.csproj.CopyComplete
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\obj\Debug\MyToolsApplication.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_1\MyToolsApplication\obj\Debug\MyToolsApplication.pdb

@@ -13,6 +13,11 @@ C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_3\Opdracht_2\Opdracht
 C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\Project.exe.config
 C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\Project.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\Project.pdb
-C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\obj\Debug\Opdracht2.csprojAssemblyReference.cache
 C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\obj\Debug\Project.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\obj\Debug\Project.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\GalgjeLogica.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\GalgjeDal.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\GalgjeLogica.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\bin\Debug\GalgjeDal.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\obj\Debug\Opdracht2.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_4_\Opdracht_2\Opdracht_2\obj\Debug\Opdracht2.csproj.CopyComplete

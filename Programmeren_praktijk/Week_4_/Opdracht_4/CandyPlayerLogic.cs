@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Opdracht_4
 {
-     class CandyPlayerLogic
+    class CandyPlayerLogic
     {
         public void InitCandies(Regularcandies[,] speelveld, string bestandsnaam)
         {

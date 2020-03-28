@@ -8,7 +8,7 @@ namespace GalgjeDal
 {
     public class WoordenDal
     {
-        public static List<string> GetAll()
+        public List<string> GetAll()
         {
             List<string> x = new List<string>();
             x.AddRange(new string[] {"antiparticle", "atom", "duality", "electron", "cosmology", "geodesic", "mass", "neutrino", "neutron",

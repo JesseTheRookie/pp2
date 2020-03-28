@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GalgjeLogica\GalgjeLogica.csproj">
+      <Project>{45b2e572-e598-49aa-81a0-a1584b8d48c6}</Project>
+      <Name>GalgjeLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

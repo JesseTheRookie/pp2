@@ -11,9 +11,9 @@ namespace Opdracht_4
     {
         static void Main(string[] args)
         {
-            Regularcandies[,] speelveld = new Regularcandies[5, 5];
+            Regularcandies[,] speelveld = new Regularcandies[8, 8];
             CandyPlayerLogic logic = new CandyPlayerLogic();
-            logic.InitCandies(speelveld, "candy_02");
+            logic.InitCandies(speelveld, "candy_03");
             logic.PrintSpeelveld(speelveld);
 
 

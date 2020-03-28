@@ -1,0 +1,6 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_3\Vertaling\bin\Debug\Vertaling.exe.config
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_3\Vertaling\bin\Debug\Vertaling.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_3\Vertaling\bin\Debug\Vertaling.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_3\Vertaling\obj\Debug\Vertaling.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_3\Vertaling\obj\Debug\Vertaling.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_3\Vertaling\obj\Debug\Vertaling.pdb

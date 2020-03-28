@@ -35,6 +35,5 @@ C:\Users\jesse\source\repos\pp2\Programmeren_praktijk\Week_2\Opdracht_2\obj\Debu
 C:\Repos\pp2\Programmeren_praktijk\Week_3_\Opdracht_2\bin\Debug\Opdracht2__.exe.config
 C:\Repos\pp2\Programmeren_praktijk\Week_3_\Opdracht_2\bin\Debug\Opdracht2__.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_3_\Opdracht_2\bin\Debug\Opdracht2__.pdb
-C:\Repos\pp2\Programmeren_praktijk\Week_3_\Opdracht_2\obj\Debug\Opdracht2.csprojAssemblyReference.cache
 C:\Repos\pp2\Programmeren_praktijk\Week_3_\Opdracht_2\obj\Debug\Opdracht2__.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_3_\Opdracht_2\obj\Debug\Opdracht2__.pdb

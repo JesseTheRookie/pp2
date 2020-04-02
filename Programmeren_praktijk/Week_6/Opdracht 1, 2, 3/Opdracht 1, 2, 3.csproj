@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChessLogic.cs" />
     <Compile Include="ChessPiece.cs" />
-    <Compile Include="Enumeration.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

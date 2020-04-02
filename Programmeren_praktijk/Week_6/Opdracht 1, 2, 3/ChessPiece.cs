@@ -8,7 +8,13 @@ namespace Opdracht_1__2__3
 {
     class ChessPiece
     {
-        private ChessPieceColor chessPieceColor;
-        private ChessPieceType chessPieceType;
+        public ChessPieceColor chessPieceColor;
+        public ChessPieceType chessPieceType;
+
+        public ChessPiece(ChessPieceType type, ChessPieceColor color)
+        {
+            this.chessPieceColor = color;
+            this.chessPieceType = type;
+        }
     }
 }

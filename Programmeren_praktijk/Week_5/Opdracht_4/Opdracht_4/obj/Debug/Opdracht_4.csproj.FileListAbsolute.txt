@@ -3,3 +3,4 @@ C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\Opdracht_4\bin\Debug\Opdrac
 C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\Opdracht_4\bin\Debug\Opdracht_4.pdb
 C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\Opdracht_4\obj\Debug\Opdracht_4.exe
 C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\Opdracht_4\obj\Debug\Opdracht_4.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\Opdracht_4\obj\Debug\Opdracht_4.csprojAssemblyReference.cache

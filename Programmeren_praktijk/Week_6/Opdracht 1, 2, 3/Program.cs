@@ -11,6 +11,13 @@ namespace Opdracht_1__2__3
         static void Main(string[] args)
         {
             ChessPiece[,] chessPieces = new ChessPiece[8, 8];
+            ChessLogic chessLogic = new ChessLogic();
+
+            chessLogic.InitChessboard(chessPieces);
+            chessLogic.DisplayChessboard(chessPieces);
+
+            Console.ReadKey();
         }
+
     }
 }

@@ -1,0 +1,11 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\bin\Debug\netstandard2.0\LingoDal.deps.json
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\bin\Debug\netstandard2.0\LingoDal.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\bin\Debug\netstandard2.0\LingoDal.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\bin\Debug\netstandard2.0\LingoModel.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\bin\Debug\netstandard2.0\LingoModel.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\obj\Debug\netstandard2.0\LingoDal.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\obj\Debug\netstandard2.0\LingoDal.AssemblyInfoInputs.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\obj\Debug\netstandard2.0\LingoDal.AssemblyInfo.cs
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\obj\Debug\netstandard2.0\LingoDal.csproj.CopyComplete
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\obj\Debug\netstandard2.0\LingoDal.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoDal\obj\Debug\netstandard2.0\LingoDal.pdb

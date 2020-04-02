@@ -1,0 +1,8 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\bin\Debug\netstandard2.0\LingoModel.deps.json
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\bin\Debug\netstandard2.0\LingoModel.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\bin\Debug\netstandard2.0\LingoModel.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\obj\Debug\netstandard2.0\LingoModel.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\obj\Debug\netstandard2.0\LingoModel.AssemblyInfoInputs.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\obj\Debug\netstandard2.0\LingoModel.AssemblyInfo.cs
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\obj\Debug\netstandard2.0\LingoModel.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoModel\obj\Debug\netstandard2.0\LingoModel.pdb

@@ -107,6 +107,43 @@ namespace Opdracht_1__2__3
             chessboard[from.row, from.column] = null;
             chessboard[to.row, to.column] = chessPiece;
         }
+        public void CheckMove(ChessPiece[,] chessboard, Position from, Position to)
+        {
+            if(from != null && to == null)
+            {
+
+            }
+            else
+            {
+                Console.WriteLine("invalid move");
+            }
+
+        }
+        public bool ValidMove(ChessPiece chessPiece, Position from, Position to)
+        {
+            switch (chessPiece.chessPieceType)
+            {
+                case ChessPieceType.king:
+                    Console.Write(" K ");
+                    break;
+                case ChessPieceType.queen:
+                    Console.Write(" Q ");
+                    break;
+                case ChessPieceType.bishop:
+                    Console.Write(" b ");
+                    break;
+                case ChessPieceType.knight:
+                    Console.Write(" k ");
+                    break;
+                case ChessPieceType.rook:
+                    Console.Write(" r ");
+                    break;
+                case ChessPieceType.pawn:
+                    Console.Write(" p ");
+                    break;
+            }
+            return true;
+        }
 
     }
 }

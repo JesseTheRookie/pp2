@@ -1,0 +1,11 @@
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\obj\Debug\LingoApplication.csprojAssemblyReference.cache
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoApplication.exe.config
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoApplication.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoApplication.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoLogic.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoModel.dll
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoLogic.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\bin\Debug\LingoModel.pdb
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\obj\Debug\LingoApplication.csproj.CopyComplete
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\obj\Debug\LingoApplication.exe
+C:\Repos\pp2\Programmeren_praktijk\Week_5\Opdracht_4\LingoApplication\obj\Debug\LingoApplication.pdb

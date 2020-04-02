@@ -78,13 +78,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opdracht_3", "Opdracht_3", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vertaling", "Week_5\Opdracht_3\Vertaling\Vertaling.csproj", "{B1793118-8D90-4655-B99B-55D0CF9C6933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoLogic", "Week_5\Opdracht_4\LingoLogic\LingoLogic.csproj", "{24D6378B-2020-4A61-8D74-A17AE92F5307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LingoLogic", "Week_5\Opdracht_4\LingoLogic\LingoLogic.csproj", "{24D6378B-2020-4A61-8D74-A17AE92F5307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoDal", "Week_5\Opdracht_4\LingoDal\LingoDal.csproj", "{1C0CEBF9-C962-4744-B72A-6B7F4F15057E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LingoDal", "Week_5\Opdracht_4\LingoDal\LingoDal.csproj", "{1C0CEBF9-C962-4744-B72A-6B7F4F15057E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoModel", "Week_5\Opdracht_4\LingoModel\LingoModel.csproj", "{CAB2DD30-5A56-4745-9476-71875999E28C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LingoModel", "Week_5\Opdracht_4\LingoModel\LingoModel.csproj", "{CAB2DD30-5A56-4745-9476-71875999E28C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoApplication", "Week_5\Opdracht_4\LingoApplication\LingoApplication.csproj", "{40B89351-5EBC-49C3-8024-DFCCE8BBDD6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opdracht_3", "Opdracht_3", "{DAC33A9E-4B55-4471-8964-DA13285BB9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opdracht_3", "Week_4_\Opdracht_3\Opdracht_3\Opdracht_3.csproj", "{1A969BE1-0C27-40A8-BBFA-8009D6F83226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -200,6 +204,10 @@ Global
 		{40B89351-5EBC-49C3-8024-DFCCE8BBDD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B89351-5EBC-49C3-8024-DFCCE8BBDD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B89351-5EBC-49C3-8024-DFCCE8BBDD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A969BE1-0C27-40A8-BBFA-8009D6F83226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A969BE1-0C27-40A8-BBFA-8009D6F83226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A969BE1-0C27-40A8-BBFA-8009D6F83226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A969BE1-0C27-40A8-BBFA-8009D6F83226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +247,8 @@ Global
 		{1C0CEBF9-C962-4744-B72A-6B7F4F15057E} = {2F5DA905-767C-4D6A-A2DD-06E8728707DB}
 		{CAB2DD30-5A56-4745-9476-71875999E28C} = {2F5DA905-767C-4D6A-A2DD-06E8728707DB}
 		{40B89351-5EBC-49C3-8024-DFCCE8BBDD6A} = {2F5DA905-767C-4D6A-A2DD-06E8728707DB}
+		{DAC33A9E-4B55-4471-8964-DA13285BB9DB} = {99220935-BDDE-460B-A15F-D61F416A41AE}
+		{1A969BE1-0C27-40A8-BBFA-8009D6F83226} = {DAC33A9E-4B55-4471-8964-DA13285BB9DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72F5ADAB-8057-4ACA-BF6E-FB14B1A93E24}

@@ -10,6 +10,26 @@ namespace LingoLogic
         public string lingoWord;
         public string playerWord;
         public LetterStateEnum[] letterResults;
+        public void Start()
+        {
+            string[] words = ReadWords();
+            string word = ChooseWord(words);
+            GameLogic lingoGame = new GameLogic();
+            lingoGame.SetLingoWord(word);
+            PlayLingo(lingoGame);
+        }
+
+        public string[] ReadWords()
+        {
+            return new string[] { "green", "class", "misty", "visor", "visit" };
+        }
+        public string ChooseWord(string[] words)
+        {
+            Random rnd = new Random();
+            string word = words[rnd.Next(0, words.Length - 1)];
+
+            return word;
+        }
 
         public void SetLingoWord(string lingoWord)
         {
@@ -54,28 +74,6 @@ namespace LingoLogic
                 }
             }
         }
-        public void Start()
-        {
-            string[] words = ReadWords();
-            string lingoWord = ChooseWord(words);
-            GameLogic lingoGame = new GameLogic();
-            lingoGame.SetLingoWord(lingoWord);
-            PlayLingo(lingoGame);
-        }
-
-        public string[] ReadWords()
-        {
-            return new string[] { "green", "class", "misty", "visor", "visit" };
-        }
-
-        public string ChooseWord(string[] words)
-        {
-            Random rnd = new Random();
-            string word = words[rnd.Next(0, words.Length)];
-
-            return word;
-        }
-
         public void PlayLingo(GameLogic lingoGame)
         {
             int attemptsLeft = 5;
@@ -85,9 +83,11 @@ namespace LingoLogic
 
             while (attemptsLeft > 0 && !lingoGame.GuessedWord())
             {
+                Console.WriteLine(this.lingoWord);
+                Console.Write("enter word: ");
                 lingoGame.playerWord = ReadPlayerWord(wordLength);
-                attemptsLeft--;
                 DisplayResults(lingoGame);
+                attemptsLeft--;
             }
         }
 

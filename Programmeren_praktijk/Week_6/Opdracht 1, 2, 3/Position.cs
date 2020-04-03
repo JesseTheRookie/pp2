@@ -16,17 +16,5 @@ namespace Opdracht_1__2__3
             this.row = row;
             this.column = column;
         }
-
-        public Position ReadPosition(string question)
-        {
-            Console.Write(question);
-
-            string enteredPosition = Console.ReadLine().ToLower();
-            int positionColumn = enteredPosition[0] - 'A';
-            int positionRow = int.Parse(enteredPosition[1].ToString()) - 1;
-
-            return new Position(positionRow, positionColumn);
-        }
-
     }
 }

@@ -13,10 +13,7 @@ namespace Opdracht_1__2__3
             ChessPiece[,] chessPieces = new ChessPiece[8, 8];
             ChessLogic chessLogic = new ChessLogic();
 
-            chessLogic.InitChessboard(chessPieces);
-            chessLogic.DisplayChessboard(chessPieces);
-
-            Console.ReadKey();
+            chessLogic.PlayChess(chessPieces);
         }
 
     }

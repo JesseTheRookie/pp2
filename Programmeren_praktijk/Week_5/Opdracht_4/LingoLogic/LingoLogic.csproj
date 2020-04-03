@@ -4,9 +4,4 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LingoDal\LingoDal.csproj" />
-    <ProjectReference Include="..\LingoModel\LingoModel.csproj" />
-  </ItemGroup>
-
 </Project>

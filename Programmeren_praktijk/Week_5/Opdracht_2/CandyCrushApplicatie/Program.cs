@@ -12,9 +12,9 @@ namespace CandyCrushApplicatie
     {
         static void Main(string[] args)
         {
-            Regularcandies[,] speelveld = new Regularcandies[8, 8];
+            Regularcandies[,] speelveld = new Regularcandies[5, 5];
             CandyCrusher logic = new CandyCrusher();
-            logic.InitCandies(speelveld, "candy_03");
+            logic.InitCandies(speelveld, "candy_04");
             logic.PrintSpeelveld(speelveld);
 
 

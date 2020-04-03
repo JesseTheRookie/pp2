@@ -59,6 +59,11 @@ namespace LingoTest
                 DisplayResults(lingoGame);
                 attemptsLeft--;
             }
+            if (lingoGame.GuessedWord())
+            {
+                Console.WriteLine();
+                Console.WriteLine("You have guessed the word!");
+            }
         }
 
         public string ReadPlayerWord(int lingoWordLength)

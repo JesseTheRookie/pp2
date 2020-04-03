@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +11,19 @@ namespace GalgjeDal
     {
         public List<string> GetAll()
         {
-            List<string> x = new List<string>();
-            x.AddRange(new string[] {"antiparticle", "atom", "duality", "electron", "cosmology", "geodesic", "mass", "neutrino", "neutron",
-                                     "nucleus", "photon", "positron", "proton", "pulsar", "quantum", "quark", "radar", "radioactivity", "singularity", "spectrum"});
+            List<string> words = new List<string>();
+            string line;
+            StreamReader reader = new StreamReader("woorden.txt");
 
-            return x;
+            while ((line = reader.ReadLine()) != null)
+            {
+                if(line.Length >= 3)
+                {
+                    words.Add(line);
+                }
+            }
+
+            return words;
         }
     }
 }

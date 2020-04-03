@@ -11,13 +11,13 @@ namespace Opdracht_3
     {
         static void Main(string[] args)
         {
-            Console.Write("Voer het zoekwoord in: ");
+            Console.Write("Enter a word (to search): ");
             string woord = Console.ReadLine();
             string bestandsNaam = "trump.txt";
             StreamReader reader = new StreamReader(bestandsNaam);
 
             int aantalRegels = ZoekWoordInBestand(bestandsNaam, woord);
-            Console.WriteLine("Aantal regels met zoekwoord: " + aantalRegels);
+            Console.WriteLine($"Number of lines containing the word: {aantalRegels}");
 
             reader.Close();
             Console.ReadKey();
@@ -26,7 +26,9 @@ namespace Opdracht_3
         static bool ZitWoordInRegel(string regel, string woord)
         {
             if (regel.Contains(woord))
+            {
                 return true;
+            }               
             return false;
         }
 

@@ -54,10 +54,6 @@
       <Project>{24d6378b-2020-4a61-8d74-a17ae92f5307}</Project>
       <Name>LingoLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LingoModel\LingoModel.csproj">
-      <Project>{cab2dd30-5a56-4745-9476-71875999e28c}</Project>
-      <Name>LingoModel</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
